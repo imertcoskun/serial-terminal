@@ -10,8 +10,8 @@ ser.timeout = 2
 try:
 	ser.open()
 	while ser.is_open:
-		username = "admin"
-		password = "c0sl4t"
+		username = "admin" #daha düzgün bir brute force için repo kullanılabilir veya hazırlanılabilir...
+		password = "blabla" #daha düzgün bir brute force için repo kullanılabilir veya hazırlanılabilir...
 
 		for i in range(1,5):
 			ser.write(b'\r\n')
