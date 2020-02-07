@@ -3,10 +3,10 @@ import io
 import time
 
 ser = serial.Serial()
-ser.baudrate = 115200
-ser.port = 'COM9'
+ser.baudrate = 1***** #Serial baudrate belirt
+ser.port = 'COM*' #Port yolu belirt
 ser.timeout = 2
-# open("C:\\Users\\mert\\Desktop\\login.txt", "r") txt icerigi degistirildi. Github'dan hazirladigin repoyu kullan
+# open("C:\\Users\\***\\****\\login.txt", "r") txt icerigi degistirildi. Github'dan hazirladigin repoyu kullan
 try:
 	ser.open()
 	while ser.is_open:
@@ -35,4 +35,4 @@ try:
 		ser.close()
 	
 except:
-	print("Baglanamiyorum...")
+	print("Baglanamiyorum ya reis...")
